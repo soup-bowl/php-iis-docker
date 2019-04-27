@@ -3,7 +3,6 @@ services:
   win_apache:
     build:
       context: ./Docker
-      dockerfile: IISPress.Dockerfile
     ports:
     - 8080:80
     volumes:
