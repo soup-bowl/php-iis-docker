@@ -1,6 +1,6 @@
 version: '3.6'
 services:
-  win_apache:
+  win_iis:
     build:
       context: ./Docker
     ports:
