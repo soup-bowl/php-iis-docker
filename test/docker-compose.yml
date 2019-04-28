@@ -2,7 +2,7 @@ version: '3.6'
 services:
   win_iis:
     build:
-      context: ./Docker
+      context: ..
     ports:
     - 8080:80
     volumes:
