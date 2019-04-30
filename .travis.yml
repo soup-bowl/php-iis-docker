@@ -1,0 +1,10 @@
+os: windows
+services: docker
+env:
+  - PHP=7.3
+
+script:
+  - docker build -t soupbowl/php-iis:latest
+
+after_script:
+  - docker images
